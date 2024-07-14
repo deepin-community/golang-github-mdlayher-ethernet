@@ -1,5 +1,28 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-mdlayher-ethernet (0.0~git20220221.529eae5-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Daniel Swarbrick ]
+  * New upstream git snapshot
+  * Add new dependency golang-github-mdlayher-packet-dev
+  * Update Standards-Version to 4.6.1 (no changes)
+  * d/control: replace dh-golang with dh-sequence-golang
+  * d/control: change Section to golang
+
+  [ Debian Janitor ]
+  * Add Multi-Arch: foreign
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Sat, 17 Dec 2022 01:43:59 +0000
+
+golang-github-mdlayher-ethernet (0.0~git20190606.0394541-2) unstable; urgency=medium
+
+  * Sourceful re-upload to unblock migration.
+  * Bump dh-compat to 13.
+
+ -- Martina Ferrari <tina@debian.org>  Mon, 07 Dec 2020 18:13:23 +0000
+
+golang-github-mdlayher-ethernet (0.0~git20190606.0394541-1) unstable; urgency=medium
+
+  * Initial release. Closes: #960796
+
+ -- Martina Ferrari <tina@debian.org>  Sat, 16 May 2020 18:44:20 +0000
